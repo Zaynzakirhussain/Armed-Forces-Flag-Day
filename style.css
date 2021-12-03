@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(Army4.webp);
+    background-size: 2010px;
+    background-position: center;
+    background-position-y: 4.05cm;
+    background-position-x: -1.4cm;
+}
+
+.banner2{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-color: black;
+}
+
+h1{
+    font-family: serif;
+    color: white;
+    margin-left: 100;
+}
+
+h2{
+    font-family: serif;
+    color: white;
+    margin-left: 78pt;
+    margin-top: 30;
+}
+
+h3{
+    font-family: serif;
+    color: white;
+    margin-left: 78pt; 
+}
+
+p{
+    font-family: sans-serif;
+    color: white;
+    margin-left: 100pt;
+    margin-top: 10pt;
+}
+
+.navtab{
+   width: 100%;
+   height: 0.6cm;
+   margin: auto;
+   padding: 65px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: black;
+}
+.blank{
+   width: 100%;
+   height: 0.6cm;
+   margin: auto;
+   margin-top: 680;
+   padding: 50px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: black;
+}
+
+.navtab ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.navtab ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navtab ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: aquamarine;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navtab ul li:hover::after{
+    width: 100%;
+}
+
+img{
+    width: 300px;
+    height: 210px;
+    margin-left: 1120px;
+    margin-top: 20;
+}
+
+.container{
+    width: 700px;
+    height: 10;
+    margin-left: 134px;
+    background: black;
+    position: relative;
+}
+
+.container p{
+    margin: 0;
+    margin-top: 10;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
