@@ -105,6 +105,13 @@ img{
     margin-top: 20;
 }
 
+.image img{
+    width: 420px;
+    height: 230px;
+    margin-left: 10px;
+    margin-top: 20;
+}
+
 .container{
     width: 700px;
     height: 85%;
